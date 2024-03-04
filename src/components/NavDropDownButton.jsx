@@ -34,7 +34,7 @@ const NavDropDownButton = () => {
                 </Box>
             </Box>
 
-            {show && <Card sx={{ padding: 2, position:"absolute", top:"50px", right:0 ,width:"230px" }}>
+            {show && <Card sx={{ padding: 2,"&:hover":{cursor:"pointer"}, position:"absolute", top:"50px", right:0 ,width:"230px" }}>
                 {
                     cryptoInfo.map((item, idx) => <Box onClick={() => handleDropdown(item)} key={idx} sx={{ display: "flex", gap: 1, alignItems: 'center', justifyItems: 'center', '&:hover':{backgroundColor:"#F3F3FB",borderRadius:"4px"},padding:1 }}>
                         <img style={{ height: '25px', width: '25px' }} src={item.logo} alt="" />
