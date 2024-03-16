@@ -9,6 +9,11 @@ const Footer = () => {
                 <Copyright fontSize='25px'></Copyright>
                 <Typography variant='caption'>copyright-2024-all righits reserved by Faucet</Typography>
             </Stack>
+            <div>
+                <h2>thi text is added later
+                    
+                </h2>
+            </div>
 
 
         </div>
